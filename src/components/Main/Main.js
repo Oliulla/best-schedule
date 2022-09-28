@@ -2,6 +2,7 @@ import React from 'react';
 import Activities from './Activities/Activities';
 import ActivityDetails from './cartcomponents/ActivityDetails/ActivityDetails';
 import AddBreak from './cartcomponents/AddBreak/AddBreak';
+import BreakTime from './cartcomponents/BreakTime/BreakTime';
 import MyProfile from './cartcomponents/MyProfile/MyProfile';
 import Header from './Header/Header';
 import './Main.css'
@@ -18,6 +19,8 @@ const Main = () => {
                     <MyProfile />
                     <AddBreak />
                     <ActivityDetails />
+                    <BreakTime />
+                    {/* <ToastButton /> */}
                 </div>
             </div>
         </main>
