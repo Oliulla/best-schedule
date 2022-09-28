@@ -13,6 +13,7 @@ const Activity = ({activity}) => {
                 <div className="card-info">
                     <h4>{name}</h4>
                     <p>Time Required: {time}hrs</p>
+                    <button className='add-list-btn'>Add To List</button>
                 </div>
             </div>
         </div>

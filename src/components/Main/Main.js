@@ -1,5 +1,7 @@
 import React from 'react';
 import Activities from './Activities/Activities';
+import AddBreak from './cartcomponents/AddBreak/AddBreak';
+import MyProfile from './cartcomponents/MyProfile/MyProfile';
 import Header from './Header/Header';
 import './Main.css'
 
@@ -12,7 +14,8 @@ const Main = () => {
                     <Activities />            
                 </div>
                 <div className="activity-cart-container">
-                    <h2>This is activity cart</h2>
+                    <MyProfile />
+                    <AddBreak />
                 </div>
             </div>
         </main>

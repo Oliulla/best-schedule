@@ -3,7 +3,7 @@
 }
 .activities-container {
     width: 100%;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     margin-top: 1.5rem;
     background-color: #282c40;
     display: grid;

@@ -20,6 +20,11 @@ body {
     margin: 6% auto;
 }
 
+.activity-cart-container {
+    background-color: #282c40;
+    padding: 2rem 1rem;
+}
+
 @media only screen and (max-width: 767.99px) {
     .main-container {
         grid-template-columns: 1fr;
