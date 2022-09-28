@@ -7,7 +7,7 @@ const Main = () => {
     return (
         <main>
             <div className="main-container">
-                <div className="activity-container">
+                <div className="all-activity-container">
                     <Header />
                     <Activities />            
                 </div>
