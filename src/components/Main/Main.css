@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #282c34;
+    color: #ffffff;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+}
+
+.activity-container {
+    width: 80%;
+    /* border: 3px solid red; */
+    margin: 10% auto;
+}
+
+@media only screen and (max-width: 767.99px) {
+    .main-container {
+        grid-template-columns: 1fr;
+    }
+}

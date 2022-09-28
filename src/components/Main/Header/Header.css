@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    align-items: center;
+    gap: .1rem;
+}
+
+.logo-img {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.domain-name-link {
+    color: #61dafb;
+    text-decoration: none;
+}
