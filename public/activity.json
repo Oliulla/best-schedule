@@ -1,36 +1,36 @@
 [
     {
-      "id": "1",
+      "id": 1,
       "picture": "https://scontent-ccu1-1.xx.fbcdn.net/v/t39.30808-6/268254364_2885779988379453_1850191543519135695_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGu9kpkpou98m9f5PWcJczyUmaLDjWfIsRSZosONZ8ixO5hhiWBCCImu4GnmsbvtIC3kkT5MgeLfai6MnHz6pMM&_nc_ohc=RwNPtcQY0N4AX_PRwET&_nc_zt=23&_nc_ht=scontent-ccu1-1.xx&oh=00_AT97-hszKghktDwuGi49pGgja0GO-eqnsYabC6sZ5s4_aQ&oe=633997C6",
       "name": "Coding",
       "time": 6
     },
     {
-      "id": "2",
+      "id": 2,
       "picture": "https://img.freepik.com/premium-photo/woman-reading-book-evening-home-close-up_122732-1098.jpg?w=740",
       "name": "Reading Book",
       "time": 3
     },
     {
-      "id": "3",
+      "id": 3,
       "picture": "https://img.freepik.com/premium-photo/portrait-young-man-with-dreadlocks-browsing-mobile-phone-background-cloudy-sky_629315-4422.jpg?w=740",
       "name": "Scrolling Social Media",
       "time": 2
     },
     {
-      "id": "4",
+      "id": 4,
       "picture": "https://img.freepik.com/free-photo/doing-homework-together_1098-14640.jpg?w=740&t=st=1664383031~exp=1664383631~hmac=d4477f3dddbca3ec1888d5033314e975739e55fa71d71712b324a6a883ec0b91",
       "name": "Do Tuition",
       "time": 5
     },
     {
-      "id": "5",
+      "id": 5,
       "picture": "https://img.freepik.com/free-photo/young-man-doing-sports-jogging-runing-park_1421-44.jpg?w=740&t=st=1664383211~exp=1664383811~hmac=c7500634e5a3ee020abe6496dcc516815c3713082ba0bc5f577c6554cd5728a3",
       "name": "Do Exercise",
       "time": 1
     },
     {
-      "id": "6",
+      "id": 6,
       "picture": "https://img.freepik.com/free-photo/medium-shot-man-home-sleeping_23-2149041937.jpg?w=740&t=st=1664383380~exp=1664383980~hmac=a6ed0dd879aa25a17f044574e81ad3f1f44202e440c9fd26891658156f75eea8",
       "name": "Sleep",
       "time": 4
