@@ -1,12 +1,12 @@
 import React from 'react';
 import './BreakTime.css'
 
-const BreakTime = () => {
+const BreakTime = ({addBreakTime}) => {
     return (
         <div>
             <div className="activity-break-container">
                 <h5>Break Time</h5>
-                <p>0</p>
+                <p>{addBreakTime}</p>
             </div>
         </div>
     );

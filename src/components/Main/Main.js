@@ -11,6 +11,8 @@ import './Main.css'
 const Main = () => {
     const [activities, setActivities] = useState([]);
     const [activityTime, setActivityTime] = useState(0);
+    const [addBreakTime, setAddBreakTime] = useState(0);
+
     useEffect(() => {
         fetch('activity.json')
         .then(res => res.json())
@@ -24,6 +26,12 @@ const Main = () => {
     }
     // console.log(activityTime)
 
+    const handleAddBreak = (breakTime) => {
+        const getBreakTime = localStorage.getItem('break-time');
+        if(!getBreakTime)
+        setAddBreakTime(breakTime)
+    }
+
     return (
         <main>
             <div className="main-container">
@@ -36,9 +44,15 @@ const Main = () => {
                 </div>
                 <div className="activity-cart-container">
                     <MyProfile />
-                    <AddBreak />
-                    <ActivityDetails activityTime={activityTime} />
-                    <BreakTime />
+                    <AddBreak
+                        handleAddBreak={handleAddBreak} 
+                    />
+                    <ActivityDetails 
+                        activityTime={activityTime} 
+                    />
+                    <BreakTime
+                        addBreakTime={addBreakTime}
+                    />
                     <ActivityCompletedBtn />
                 </div>
             </div>

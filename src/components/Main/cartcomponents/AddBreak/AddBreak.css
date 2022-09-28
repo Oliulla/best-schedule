@@ -15,17 +15,30 @@
 }
 
 .add-break-btn-container button {
-    padding: .59rem .2rem;
+    /* padding: .59rem .2rem; */
+    width: 2.5rem;
+    height: 2.4rem;
     border-radius: 50%;
     border: none;
     cursor: pointer;
     background-color: #fff;
     font-size: .9rem;
+    font-weight: normal;
+    font-size: 1.4rem;
+}
+
+button span {
+    height: 100%;
+    width: 100%;
     font-weight: bold;
 }
 
+small {
+    font-size: 12px;
+}
+
 .add-break-btn-container button:hover {
-    transition: ease 0.3s;
+    transition: ease 0.2s;
     background-color: #e6e628aa;
     color: #fff;
 }
