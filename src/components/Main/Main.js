@@ -1,5 +1,6 @@
 import React from 'react';
 import Activities from './Activities/Activities';
+import ActivityCompletedBtn from './cartcomponents/ActivityCompletedBtn/ActivityCompletedBtn';
 import ActivityDetails from './cartcomponents/ActivityDetails/ActivityDetails';
 import AddBreak from './cartcomponents/AddBreak/AddBreak';
 import BreakTime from './cartcomponents/BreakTime/BreakTime';
@@ -20,7 +21,7 @@ const Main = () => {
                     <AddBreak />
                     <ActivityDetails />
                     <BreakTime />
-                    {/* <ToastButton /> */}
+                    <ActivityCompletedBtn />
                 </div>
             </div>
         </main>
