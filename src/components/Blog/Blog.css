@@ -11,6 +11,7 @@
 
 .blog {
     margin-top: 1rem;
+    margin-bottom: 4rem;
 }
 
 /* .blog p {
@@ -34,4 +35,19 @@ i {
     color: #ff62f7;
     margin-bottom: 2rem;
     margin-top: .4rem;
+}
+
+.props-sates {
+    display: flex;
+    gap: 2.8rem;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.order-list {
+    margin-top: 1rem;
+}
+
+.order-list li {
+    margin-top: .5rem;
 }
