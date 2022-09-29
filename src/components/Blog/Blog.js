@@ -100,7 +100,33 @@ const Blog = () => {
                         </div>
                     </div>
                 </div>
-
+                <div className="blog">
+                    <h3>What Are The Purpose Of Using React 'useEffect' Hook Except Data Fetch?</h3>
+                    <i>Ans:</i>
+                   <div>
+                        <p>
+                            Except data fetching by useEffect() hook it has some use case.
+                        </p>
+                        <p>
+                            The useEffect hook allows components to react to lifecycle events
+                            such as mounting to the DOM, re-rendering, and unmounting.
+                        </p>
+                        <p>
+                            Actually the useEffect hook used when react works side effect. So, With useEffect, 
+                            we invoke side effects from within functional components, which is an important concept 
+                            to understand in the React Hooks era.
+                        </p>
+                        <div className="margin-t">
+                            <h4>Some react useEffect use case: </h4>
+                            <ul className='unorder-list'>
+                                <li>Running on <b>state change</b>: validating input field</li>
+                                <li>Running on <b>state change</b>: live filtering</li>
+                                <li>Running on <b>state change</b>: trigger animation on new array value</li>
+                                <li>Running on <b>props change</b>: update paragraph list on fetched API data update</li>
+                            </ul>
+                        </div>
+                   </div>
+                </div>
             </div>
         </div>
     );

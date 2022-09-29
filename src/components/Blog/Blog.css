@@ -1,11 +1,11 @@
 .all-blogs-container {
-    width: 90%;
+    max-width: 90%;
     margin: 5% auto;
 }
 
 .text-blog {
     text-align: center;
-    border-bottom: 2px solid #000080;
+    border-bottom: 2px solid #2890d6;
     color: #00ffffcc;
 }
 
@@ -42,6 +42,7 @@ i {
     gap: 2.8rem;
     width: 100%;
     justify-content: space-around;
+    padding: 1rem 2rem;
 }
 
 .order-list {
@@ -49,5 +50,20 @@ i {
 }
 
 .order-list li {
-    margin-top: .5rem;
+    margin-top: .8rem;
+}
+
+.margin-t {
+    margin-top: 1.5rem;
+    padding-left: 1rem;
+}
+
+.unorder-list li {
+    margin-top: .8rem;
+}
+
+@media only screen and (max-width: 667.99px) {
+    .props-sates {
+        flex-direction: column;
+    }
 }
