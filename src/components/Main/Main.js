@@ -6,7 +6,7 @@ import AddBreak from './cartcomponents/AddBreak/AddBreak';
 import BreakTime from './cartcomponents/BreakTime/BreakTime';
 import MyProfile from './cartcomponents/MyProfile/MyProfile';
 import Header from './Header/Header';
-import './Main.css'
+import './Main.css';
 
 const Main = () => {
     const [activities, setActivities] = useState([]);
@@ -76,6 +76,9 @@ const Main = () => {
                     />
                     <ActivityCompletedBtn />
                 </div>
+            </div>
+            <div className='blog-container'>
+
             </div>
         </main>
     );
