@@ -25,6 +25,14 @@ body {
     padding: 2rem 1rem;
 }
 
+/* Blog section*/
+.blogs-container .devider {
+    width: 90%;
+    height: 3px;
+    margin: 0 auto;
+    background-color: #dd0099;
+}
+
 @media only screen and (max-width: 767.99px) {
     .main-container {
         grid-template-columns: 1fr;

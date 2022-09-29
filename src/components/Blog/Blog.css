@@ -1,0 +1,37 @@
+.all-blogs-container {
+    width: 90%;
+    margin: 5% auto;
+}
+
+.text-blog {
+    text-align: center;
+    border-bottom: 2px solid #000080;
+    color: #00ffffcc;
+}
+
+.blog {
+    margin-top: 1rem;
+}
+
+/* .blog p {
+    margin-top: 1rem;
+    margin-bottom: 0;
+} */
+
+.blog>h3 {
+    color: #ffdead;
+}
+
+i {
+    color: #ff0000;
+}
+
+.code-em {
+    display: block;
+    background: #000;
+    width: 25%;
+    padding: 10px 8px;
+    color: #ff62f7;
+    margin-bottom: 2rem;
+    margin-top: .4rem;
+}

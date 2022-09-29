@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Blog from '../Blog/Blog';
 import Activities from './Activities/Activities';
 import ActivityCompletedBtn from './cartcomponents/ActivityCompletedBtn/ActivityCompletedBtn';
 import ActivityDetails from './cartcomponents/ActivityDetails/ActivityDetails';
@@ -77,8 +78,9 @@ const Main = () => {
                     <ActivityCompletedBtn />
                 </div>
             </div>
-            <div className='blog-container'>
-
+            <div className='blogs-container'>
+                <div className="devider"></div>
+                <Blog />
             </div>
         </main>
     );
