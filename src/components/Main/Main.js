@@ -21,7 +21,7 @@ const Main = () => {
     // console.log(activities)
 
     useEffect(() => {
-        const items = JSON.parse(localStorage.getItem('break-time'));
+        const items = localStorage.getItem('break-time');
         if (items) {
             setAddBreakTime(items);
         }
