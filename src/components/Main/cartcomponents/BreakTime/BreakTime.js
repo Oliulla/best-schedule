@@ -6,7 +6,7 @@ const BreakTime = ({addBreakTime}) => {
         <div>
             <div className="activity-break-container">
                 <h5>Break Time</h5>
-                <p>{addBreakTime}</p>
+                <p>{addBreakTime}<small>m</small></p>
             </div>
         </div>
     );
