@@ -42,3 +42,17 @@
     background-color: #9c6408;
     transition: ease-in-out 0.3s;
 }
+
+@media only screen and (max-width: 767.99px){
+    .card {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .card {
+        width: 100%;
+        height: auto;
+    }
+}
