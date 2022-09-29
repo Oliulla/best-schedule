@@ -19,7 +19,6 @@ const Main = () => {
         .then(res => res.json())
         .then(data => setActivities(data))
     }, [])
-    // console.log(activities)
 
     useEffect(() => {
         const items = localStorage.getItem('break-time');
@@ -33,25 +32,18 @@ const Main = () => {
         const newActivityTime = time + activityTime;
         setActivityTime(newActivityTime)
     }
-    // console.log(activityTime)
 
     const handleAddBreak = (breakTime) => {
-        // console.log(breakTime)
-        // Local storage will be add here
+        
         const getTime = localStorage.getItem('break-time');
         if(getTime === null) {
             localStorage.setItem('break-time', +breakTime);
-            // const newTime = localStorage.getItem('break-time');
-            // setAddBreakTime(newTime)
         }
         else {
             localStorage.setItem('break-time', +breakTime);
-            // setAddBreakTime(parseInt(getTime));
         }
         
-        // console.log(+getTime)
         setAddBreakTime(breakTime)
-        // return breakTime;
     }
 
     return (

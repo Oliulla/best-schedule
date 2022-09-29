@@ -1,16 +1,10 @@
 import React from 'react';
 import './ActivityCompletedBtn.css';
-// import Swal from 'sweetalert2';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const ActivityCompletedBtn = () => {
     const handleCompletedBtn = () => {
-        // Swal.fire(
-        //     'Good job!',
-        //     `You Completed Your Today's Activity!`,
-        //     'success'
-        // )
         toast(`Good job! you completed your today's activities.`);
     }
 

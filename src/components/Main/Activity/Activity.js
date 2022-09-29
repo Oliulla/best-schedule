@@ -2,8 +2,8 @@ import React from 'react';
 import './Activity.css'
 
 const Activity = ({activity, handleActivityTime}) => {
-    // console.log(activity)
     const {picture, name, time} = activity;
+    
     return (
         <div>
             <div className="card">

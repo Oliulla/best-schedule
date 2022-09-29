@@ -14,11 +14,6 @@
     margin-bottom: 4rem;
 }
 
-/* .blog p {
-    margin-top: 1rem;
-    margin-bottom: 0;
-} */
-
 .blog>h3 {
     color: #ffdead;
 }
@@ -30,7 +25,7 @@ i {
 .code-em {
     display: block;
     background: #000;
-    width: 25%;
+    width: 220px;
     padding: 10px 8px;
     color: #ff62f7;
     margin-bottom: 2rem;
